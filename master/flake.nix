@@ -11,6 +11,7 @@
   inputs.src-packedjson-master.ref   = "refs/heads/master";
   inputs.src-packedjson-master.owner = "Araq";
   inputs.src-packedjson-master.repo  = "packedjson";
+  inputs.src-packedjson-master.dir   = "";
   inputs.src-packedjson-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
